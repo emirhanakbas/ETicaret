@@ -1,4 +1,6 @@
 
+using ETicaretApp.Persistence;
+
 namespace ETicaretAPI.API
 {
     public class Program
@@ -6,6 +8,7 @@ namespace ETicaretAPI.API
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            builder.Services.AddPersistenceServince();
 
             // Add services to the container.
 
