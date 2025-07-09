@@ -14,4 +14,10 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ETicaret.Application\ETicaret.Application.csproj" />
+    <ProjectReference Include="..\ETicaretApp.Infrastructure\ETicaretApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\ETicaretApp.Persistence\ETicaretApp.Persistence.csproj" />
+  </ItemGroup>
+
 </Project>
